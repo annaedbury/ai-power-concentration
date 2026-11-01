@@ -4,15 +4,15 @@ An independent R project examining whether global distribution of AI capability 
 
 ## Data Sources
 
-- **Epoch AI, Notable AI Models** (CC-BY 4.0).Downloaded 31/10/2026; 1091 rows. <https://epoch.ai/data/ai-models>
+- **Epoch AI, Notable AI Models** (CC-BY 4.0). Downloaded 31/10/2026; 1091 rows. <https://epoch.ai/data/ai-models>
 - **World Bank World Development Indicators** (GDP, military expenditure). Accessed via 'WDI' R package 31/10/2026.
 
 ## Scripts
 
-- '00_setup.R': creates project folders
-- '01_fetch_data.R': downloads Epoch AI and World Bank data
-- '02_inspect.R': inspects raw Epoch file
-- '03_clean.R': converts Epoch model list into AI models per year per country
+- `00_setup.R`: creates project folders
+- `01_fetch_data.R`: downloads Epoch AI and World Bank data
+- `02_inspect.R`: inspects raw Epoch file
+- `03_clean.R`: converts Epoch model list into AI models per year per country
 
 ## Data cleaning notes (Epoch AI)
 
